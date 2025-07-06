@@ -1,0 +1,74 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            body {
+                background: url('https://www.transparenttextures.com/patterns/purty-wood.png');
+                /* Transparent texture */
+                background-color: #f4f4f4;
+                padding: 40px 20px;
+            }
+
+            .about-container {
+                background-color: rgba(255, 255, 255, 0.9);
+                max-width: 1200px;
+                margin: auto;
+                border-radius: 15px;
+                padding: 40px;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .about-text {
+                flex: 1 1 60%;
+                padding: 20px;
+            }
+
+            .about-text h1 {
+                font-size: 38px;
+                margin-bottom: 25px;
+                color: #2c3e50;
+            }
+
+            .about-text p {
+                font-size: 17px;
+                line-height: 1.8;
+                color: #333;
+                margin-bottom: 15px;
+                text-align: justify;
+            }
+
+            .about-image {
+                flex: 1 1 40%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .about-image img {
+                max-width: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            @media (max-width: 768px) {
+                .about-container {
+                    flex-direction: column;
+                    padding: 20px;
+                }
+
+                .about-text,
+                .about-image {
+                    flex: 1 1 100%;
+                    padding: 10px;
+                }
+
+                .about-text h1 {
+                    font-size: 28px;
+                }
+            }
+            

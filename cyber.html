@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberSec Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="cyber.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CyberSecurity Portal</a>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="bg-image text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to Cybersecurity Job Portal</h1>
+      <p class="lead">Secure the future. One job at a time.</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <h2>About Cybersecurity</h2>
+    <p>
+      Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.
+      With the rise of digital data, the demand for cybersecurity professionals is growing rapidly.
+      From ethical hacking to network defense, careers in cybersecurity are both challenging and rewarding.
+    </p>
+  </section>
+
+  <!-- Job Listings -->
+  <section class="container py-4">
+    <h3 class="mb-4">Available Cybersecurity Jobs</h3>
+    <ul class="list-group">
+      <li class="list-group-item">🔒 Penetration Tester - Delhi</li>
+      <li class="list-group-item">🛡️ Security Analyst - Bangalore</li>
+      <li class="list-group-item">🧠 Cyber Threat Intelligence Expert - Remote</li>
+      <li class="list-group-item">🔍 Network Security Engineer - Mumbai</li>
+      <li class="list-group-item">💻 SOC Analyst - Hyderabad</li>
+    </ul>
+  </section>
+
+  <!-- Job Application Form -->
+  <section class="container py-5">
+    <h3 class="mb-4">Apply for a Job</h3>
+    <form id="jobForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="position" class="form-label">Position Applied For</label>
+        <select class="form-select" id="position" required>
+          <option value="">Choose...</option>
+          <option>Penetration Tester</option>
+          <option>Security Analyst</option>
+          <option>Cyber Threat Intelligence Expert</option>
+          <option>Network Security Engineer</option>
+          <option>SOC Analyst</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+    <div id="successMessage" class="alert alert-success mt-3 d-none">
+      Application submitted successfully!
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 CyberSec Portal. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+
+
+
+</body>
+
+</html>

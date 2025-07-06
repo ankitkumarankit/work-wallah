@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data & Analytics Job Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="data&ana.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DataJobs Portal</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header-section text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Explore Careers in Data & Analytics</h1>
+      <p class="lead">Powering insights with data-driven opportunities</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <h2>Why Data & Analytics?</h2>
+    <p>
+      Data and Analytics is transforming industries by unlocking insights from vast amounts of information. 
+      From data scientists to business analysts, professionals in this field help organizations make smarter, 
+      evidence-based decisions. Careers in analytics are growing rapidly with exciting roles across various sectors.
+    </p>
+  </section>
+
+  <!-- Job Listings -->
+  <section class="container py-4">
+    <h3>Open Positions</h3>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">📊 Data Analyst - Bengaluru</li>
+      <li class="list-group-item">📈 Business Intelligence Developer - Mumbai</li>
+      <li class="list-group-item">📉 Data Scientist - Remote</li>
+      <li class="list-group-item">🧠 Machine Learning Engineer - Hyderabad</li>
+      <li class="list-group-item">🔍 Data Engineer - Pune</li>
+    </ul>
+  </section>
+
+  <!-- Job Application Form -->
+  <section class="container pb-5">
+    <h3>Apply for a Job</h3>
+    <form id="applicationForm">
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullName" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="position" class="form-label">Position</label>
+        <select class="form-select" id="position" required>
+          <option value="">Choose...</option>
+          <option>Data Analyst</option>
+          <option>BI Developer</option>
+          <option>Data Scientist</option>
+          <option>ML Engineer</option>
+          <option>Data Engineer</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+    <div id="successMessage" class="alert alert-success mt-3 d-none">
+      Application submitted successfully!
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 DataJobs Portal. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap & jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- External JS -->
+  <script src="index.js"></script>
+</body>
+</html>

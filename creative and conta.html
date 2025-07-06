@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creative & Content Specialist - JobWallah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="creative and conta.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#">JobWallah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Jobs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Companies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Job Description Section -->
+  <section class="job-section py-5">
+    <div class="container">
+      <div class="card job-card p-4 shadow-lg">
+        <h2 class="text-primary">Creative & Content Specialist</h2>
+        <p><strong>Location:</strong> Remote / Mumbai</p>
+        <p><strong>Type:</strong> Full-time | Experience: 2–4 Years</p>
+        <p>
+          We're looking for a Creative & Content Specialist to conceptualize and create compelling written and visual content across our brand channels. The ideal candidate is a creative thinker with strong writing skills and a passion for storytelling.
+        </p>
+
+        <h5>Key Responsibilities:</h5>
+        <ul>
+          <li>Develop engaging content for digital and offline campaigns</li>
+          <li>Collaborate with design and marketing teams on creative projects</li>
+          <li>Manage content calendars and execute content plans</li>
+          <li>Ensure brand voice and tone are consistent across all platforms</li>
+        </ul>
+
+        <h5>Requirements:</h5>
+        <ul>
+          <li>Bachelor’s in Marketing, Journalism, Communications, or related field</li>
+          <li>2–4 years of experience in content marketing, copywriting, or editorial roles</li>
+          <li>Proficiency in CMS platforms, social media, and SEO best practices</li>
+        </ul>
+
+        <button class="btn btn-warning mt-3" onclick="showForm()">Apply Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Form -->
+  <section class="apply-section py-5" id="applySection" style="display: none;">
+    <div class="container">
+      <div class="card apply-card p-4 shadow-lg">
+        <h4 class="mb-3">Apply for Creative & Content Specialist</h4>
+        <form id="applyForm">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Portfolio / LinkedIn</label>
+            <input type="url" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Why are you a good fit?</label>
+            <textarea class="form-control" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit Application</button>
+          <div id="successMsg" class="alert alert-success mt-3" style="display: none;">
+            ✅ Application submitted successfully!
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script>
+    function showForm() {
+      const form = document.getElementById("applySection");
+      form.style.display = "block";
+      form.scrollIntoView({ behavior: "smooth" });
+    }
+
+    document.getElementById("applyForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      document.getElementById("successMsg").style.display = "block";
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>

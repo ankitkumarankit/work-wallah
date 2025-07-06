@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IT Infrastructure Job Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="IT Infra.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">IT Infra Jobs</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header-section text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">IT Infrastructure Job Portal</h1>
+      <p class="lead">Connecting experts to mission-critical infrastructure roles</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <h2>Why IT Infrastructure?</h2>
+    <p>
+      IT Infrastructure professionals build and maintain the backbone of business technology. From server management
+      and network operations to cloud deployments and IT support, their work ensures stability, security, and performance 
+      in today’s digital-first world.
+    </p>
+  </section>
+
+  <!-- Job Listings -->
+  <section class="container py-4">
+    <h3>Current Openings</h3>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">🖥️ IT Support Engineer - Noida</li>
+      <li class="list-group-item">☁️ Cloud Infrastructure Specialist - Remote</li>
+      <li class="list-group-item">🔧 Systems Administrator - Bangalore</li>
+      <li class="list-group-item">🧠 DevOps Engineer - Hyderabad</li>
+      <li class="list-group-item">🌐 Network Infrastructure Manager - Pune</li>
+    </ul>
+  </section>
+
+  <!-- Application Form -->
+  <section class="container pb-5">
+    <h3>Apply for a Role</h3>
+    <form id="applicationForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="role" class="form-label">Position Applied For</label>
+        <select class="form-select" id="role" required>
+          <option value="">Select a position</option>
+          <option>IT Support Engineer</option>
+          <option>Cloud Infrastructure Specialist</option>
+          <option>Systems Administrator</option>
+          <option>DevOps Engineer</option>
+          <option>Network Infrastructure Manager</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+    <div id="successMessage" class="alert alert-success mt-3 d-none">
+      ✅ Your application has been submitted!
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 IT Infra Jobs. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

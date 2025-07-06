@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Work Wallah</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<style>
+  .card:hover {
+    box-shadow: 4px 4px 20px rgba(11, 42, 243, 0.5);
+  }
+</style>
+
+<body>
+  <img src="image/pic1.png" width="100px" height="100px" alt="" style="margin-left: 30px;">
+
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#007BFF;">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="about us.html">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact us.html">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Jobs
+          </a>
+          <div class="dropdown-menu">
+
+
+            <a class="dropdown-item" href="webdev.html">Software & Web Development</a>
+            <a class="dropdown-item" href="cyber.html">Cybersecurity</a>
+            <a class="dropdown-item" href="data&ana.html">Data & Analytics</a>
+            <a class="dropdown-item" href="AI.html">AI & Emerging Tech</a>
+            <a class="dropdown-item" href="IT Infra.html">IT Infrastructure & Support</a>
+
+
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="digital mar.html">Digital Marketing</a>
+            <a class="dropdown-item" href="brand & stra.html">Brand & Strategic Marketing</a>
+            <a class="dropdown-item" href="creative and conta.html">Creative & Content Roles</a>
+            <a class="dropdown-item" href="E-commers.html">E-commerce & Automation</a>
+          </div>
+        </li>
+
+      </ul>
+
+      </li>
+      <form class="abc">
+        <button type="button" class="btn   btn-lg" style="background-color: beige; border-radius: 40px;"><a
+            href="login.html">Login</a></button>
+
+        <button type="button" class="btn   btn-lg"
+          style="background-color: rgb(241, 104, 54); border-radius: 40px;  "><a href="register.html">
+            Register</a></button>
+
+      </form>
+
+    </div>
+  </nav>
+
+
+  <br>
+  <br>
+  <br>
+  <div class="sear">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search   /   Jobs   /   IT Jobs   /   Marketing Jobs"
+      aria-label="Search" style="border-radius: 50px; height: 55px;">
+  </div>
+  <br>
+  <br>
+
+  <br>
+
+
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active hero-slide"
+        style="background-image: url('https://cdn.wallpapersafari.com/51/27/78VlbA.jpg');">
+        <div
+          class="container text-white d-flex align-items-center justify-content-center flex-column h-100 text-center">
+          <h1 class="display-4">Find Your Dream Job</h1>
+          <p>Thousands of opportunities at your fingertips</p>
+          <!-- <a href="#" class="btn btn-primary">Get Started</a> -->
+        </div>
+      </div>
+
+      <div class="carousel-item hero-slide"
+        style="background-image: url('https://www.merca2.es/wp-content/uploads/2023/10/img_fcc0d92fe57e073d8b4a22c1bed405e4.jpg');">
+        <div
+          class="container text-white d-flex align-items-center justify-content-center flex-column h-100 text-center">
+          <h1 class="display-4">Connect with Top Companies</h1>
+          <p>Grow your career with the best</p>
+          <!-- <a href="#" class="btn btn-primary">Get Started</a> -->
+        </div>
+      </div>
+
+      <div class="carousel-item hero-slide"
+        style="background-image: url('https://cdn.wallpapersafari.com/77/45/d9EeIk.jpg');">
+        <div
+          class="container text-white d-flex align-items-center justify-content-center flex-column h-100 text-center">
+          <h1 class="display-4">Your Future Starts Here</h1>
+          <p>Easy, Fast, and Reliable Job Search</p>
+          <!-- <a href="#" class="btn btn-primary">Join Now</a> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Job Categories Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Explore By Category</h2>
+        <p class="text-muted">Browse jobs by popular categories</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Category Card 1 -->
+        <div class="col-md-3">
+          <div class="card text-center p-3 shadow-sm border-0">
+            <div class="mb-3">
+              <i class="fas fa-headset fa-2x text-primary"></i>
+            </div>
+            <h5>Customer Service</h5>
+            <!-- <p class="text-muted small">150+ Openings</p> -->
+          </div>
+        </div>
+
+        <!-- Category Card 2 -->
+        <div class="col-md-3">
+          <div class="card text-center p-3 shadow-sm border-0">
+            <div class="mb-3">
+              <i class="fas fa-code fa-2x text-success"></i>
+            </div>
+            <h5>Software & IT</h5>
+            <!-- <p class="text-muted small">320+ Openings</p> -->
+          </div>
+        </div>
+
+        <!-- Category Card 3 -->
+        <div class="col-md-3">
+          <div class="card text-center p-3 shadow-sm border-0">
+            <div class="mb-3">
+              <i class="fas fa-pen-nib fa-2x text-danger"></i>
+            </div>
+            <h5>Design & Creative</h5>
+            <!-- <p class="text-muted small">98+ Openings</p> -->
+          </div>
+        </div>
+
+        <!-- Category Card 4 -->
+        <div class="col-md-3">
+          <div class="card text-center p-3 shadow-sm border-0">
+            <div class="mb-3">
+              <i class="fas fa-briefcase fa-2x text-warning"></i>
+            </div>
+            <h5>Business Management</h5>
+            <!-- <p class="text-muted small">210+ Openings</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  </section>
+  <section class="msin">
+    <div class="container">
+      <div class="row jusity-content-spacebetween" style="margin-top: 30px;">
+        <div class="col-md-4">
+          <div class="card  ">
+            <img src="image/b1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Software & Web Development</h5>
+              <p class="card-text">Software & Web Development is the process of designing, creating, testing, and
+                maintaining applications and websites. </p>
+              <a href="webdev.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 ">
+          <div class="card">
+            <img src="image/b3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cybersecurity</h5>
+              <p class="card-text">Cybersecurity is the practice of protecting systems, networks, and data from digital
+                attacks, unauthorized access, and damage.</p>
+              <a href="cyber.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 ">
+          <div class="card">
+            <img src="image/b2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Data & Analytics</h5>
+              <p class="card-text">Data & Analytics involves collecting, organizing, analyzing, and interpreting data to
+                support decision-making and strategy.</p>
+              <a href="data&ana.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <img src="image/b4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AI</h5>
+              <p class="card-text">Design intelligent systems that simulate human thinking using machine larninga and
+                deep learning techniques.</p>
+              <a href="AI.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        </di v>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <img src="image/b5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="Card title">Network Engineer</h5>
+              <p class="card-text">Design empliment manage and mantain computer networks ensuring seamless connectivity
+                and security.</p>
+              <a href="network eng.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <img src="image/b6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">IT Infrastructure</h5>
+              <p class="card-text">Plane , build ,and maintain essential IT systems like servers,networks and storage
+                hardware.</p>
+              <a href="IT Infra.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing Manager</h5>
+              <p class="card-text">Develop and implement digital marketing strategies across channels to increase brand
+                awareness, traffic, and conversions.</p>
+              <a href="digital mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">SEO Specialist</h5>
+              <p class="card-text">Optimize websites and content to rank higher in search engine results, increasing
+                organic traffic and visibility.</p>
+              <a href="seo spe.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Content Marketing Manager</h5>
+              <p class="card-text">Create and manage valuable content to attract, inform, and convert prospects into
+                loyal customers across digital platforms.</p>
+              <a href="content mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Social Media Manager</h5>
+              <p class="card-text">Plan, execute, and monitor social media campaigns to engage audiences, build brand
+                loyalty, and drive website traffic.</p>
+              <a href="social media.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Email Marketing Specialist</h5>
+              <p class="card-text">Design and execute email campaigns that nurture leads,and increase customer
+                engagement and retention.</p>
+              <a href="email mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px; ">
+            <div class="card-body">
+              <h5 class="card-title"> PPC Specialist (Pay-Per-Click)</h5>
+              <p class="card-text">Manage paid ad campaigns on platforms like Google Ads to generate leads and drive
+                sales efficiently.</p>
+              <a href="pcc spe.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px; ">
+            <div class="card-body">
+              <h5 class="card-title"> Affiliate Marketing Manager</h5>
+              <p class="card-text">Build and manage relationships with affiliates to promote products or services
+                through commission-based partnerships.</p>
+              <a href="afflite.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+          <div class="card" style="margin-top: 30px;  ">
+            <div class="card-body">
+              <h5 class="card-title"> Marketing Automation Specialis</h5>
+              <p class="card-text">Use tools to automate repetitive marketing tasks, and track customer interactions
+                across touchpoints.</p>
+              <a href="marketing auto.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent ">
+          <!-- <div class="col-md-4 "> -->
+          <div class="card" style="margin-top: 30px   ;">
+            <div class="card-body">
+              <h5 class="card-title">Digital Analyst</h5>
+              <p class="card-text">Analyze marketing data and metrics to improve campaign performance, user experience,
+                and return on investment (ROI).</p>
+              <a href="digital ana.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Conversion Rate Optimization (CRO) Specialist</h5>
+              <p class="card-text">Test and tweak website elements to improve conversion rates, increasing leads or
+                sales without additional traffic.</p>
+              <a href="CRO.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Influencer Marketing Manager</h5>
+              <p class="card-text">Collaborate with influencers to reach target audiences, build credibility, and boost
+                brand visibility on social platforms.</p>
+              <a href="influncer mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce Marketing Specialist</h5>
+              <p class="card-text">Drive online sales by optimizing product listings, promotions, and digital
+                advertising for e-commerce platforms.</p>
+              <a href="E-commers.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Online Reputation Manager</h5>
+              <p class="card-text">Monitor and manage brand reputation across review sites, forums, and social platforms
+                to protect the security customer trust.</p>
+              <a href="online repu.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Mobile Marketing Specialist</h5>
+              <p class="card-text">Create mobile-focused campaigns using SMS, apps, and push notifications to engage
+                users on their smartphones and tablets.</p>
+              <a href="mobile mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Video Marketing Specialist</h5>
+              <p class="card-text">Plan and produce video content to boost engagement, explain products, and enhance
+                brand storytelling on digital channels.</p>
+              <a href="video mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Growth Hacker</h5>
+              <p class="card-text">Use creative, data-driven tactics and rapid experimentation and practical to grow a
+                brand’s user base and maximize digital performance.</p>
+              <a href="video mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Digital Copywriter</h5>
+              <p class="card-text">Write compelling digital content, ads, and landing pages that convert visitors into
+                customers and strengthen brand messaging.</p>
+              <a href="digital copy.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Web Analytics Specialist</h5>
+              <p class="card-text">Track, measure, and report website behavior to improve digital strategies, user
+                engagement, and marketing campaign effectiveness.</p>
+              <a href="web analatics.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">CRM Marketing Manager</h5>
+              <p class="card-text">Manage customer relationship platforms to create personalized campaigns that boost
+                customer loyalty, retention, and repeat purchases.</p>
+              <a href="CRM mar.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">UX Writer</h5>
+              <p class="card-text">Craft user-focused microcopy and interface text that enhances usability, supports
+                brand tone, and improves digital product experiences.</p>
+              <a href="UX-writter.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 vapcontent">
+
+          <div class="card" style="margin-top: 30px;">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Data Scientist</h5>
+              <p class="card-text">Analyze large datasets to uncover insights, predict trends, and optimize digital
+                marketing strategies using machine learning and analytics.</p>
+              <a href="marketing data scient.html" class="btn btn-primary">Apply</a>
+            </div>
+          </div>
+        </div>
+  </section>
+  <footer class="bg-dark text-light pt-5 pb-3" style="margin-top: 30px;">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold mb-3">work wallah.</h5>
+          <p>Work wallah is your trusted job portal to find the best career opportunities and talent across India.</p>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="about us.html" class="text-light text-decoration-none">About Us</a></li>
+            <li><a href="jobs.html" class="text-light text-decoration-none">All Jobs</a></li>
+            <li><a href="contact us.html" class="text-light text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-bold mb-3">Contact Us</h6>
+          <p><i class="fas fa-phone me-2"></i> +91 98765 43210</p>
+          <p><i class="fas fa-envelope me-2"></i> support@jobhunt.com</p>
+          <div class="mt-3">
+            <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light me-3"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-4">
+        <hr class="border-light" />
+        <p class="mb-0">&copy; 2025 job wallah. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

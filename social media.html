@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Media Manager Job Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="social media.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Social Media Jobs</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header-section text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Social Media Manager Job Portal</h1>
+      <p class="lead">Find your next big opportunity in digital engagement</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <h2>Why Social Media Management?</h2>
+    <p>
+      Social Media Managers are the voice of the brand across platforms. They strategize, create, and manage 
+      content to engage audiences, build communities, and drive business goals. With creativity, analytics, 
+      and digital tools, they are vital to any marketing team.
+    </p>
+  </section>
+
+  <!-- Job Listings -->
+  <section class="container py-4">
+    <h3>Open Positions</h3>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">📱 Social Media Manager - Mumbai</li>
+      <li class="list-group-item">📸 Instagram Growth Strategist - Bengaluru</li>
+      <li class="list-group-item">🐦 Twitter Campaign Manager - Remote</li>
+      <li class="list-group-item">🎥 Reels & Video Content Manager - Delhi</li>
+      <li class="list-group-item">📊 Social Media Analyst - Hyderabad</li>
+    </ul>
+  </section>
+
+  <!-- Application Form -->
+  <section class="container pb-5">
+    <h3>Apply Now</h3>
+    <form id="applicationForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="position" class="form-label">Job Role</label>
+        <select class="form-select" id="position" required>
+          <option value="">Select a position</option>
+          <option>Social Media Manager</option>
+          <option>Instagram Growth Strategist</option>
+          <option>Twitter Campaign Manager</option>
+          <option>Reels & Video Content Manager</option>
+          <option>Social Media Analyst</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+    </form>
+    <div id="successMessage" class="alert alert-success mt-3 d-none">
+      ✅ Application submitted successfully!
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Social Media Jobs. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

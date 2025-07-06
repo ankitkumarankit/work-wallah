@@ -1,0 +1,9 @@
+.bg-image {
+  background: url('https://images.unsplash.com/photo-1581091012184-7e0cdfbb6793') no-repeat center center/cover;
+  min-height: 300px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+

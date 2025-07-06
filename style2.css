@@ -1,0 +1,14 @@
+.sear{
+    width: 70%;
+    margin-left: 185px;
+   
+}
+.card:hover{
+transform: scale(1.03);
+translate: 2s ease;
+}
+.find{
+   
+   margin-left: 370px;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Software & WebDev Job Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="webdev.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Software & web Development portal</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header-section text-center text-white">
+    <div class="container py-5">
+      <h1 class="display-4">Find Your Dream Tech Job</h1>
+      <p class="lead">Explore the latest opportunities in Software & Web Development</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <h2>About Software & Web Development Careers</h2>
+    <p>
+      Software and Web Development careers are in high demand. With skills in programming, design, and problem solving, developers build everything from websites to full-scale applications. Whether you're a front-end designer or a full-stack engineer, there’s a place for you in the growing digital economy.
+    </p>
+  </section>
+
+  <!-- Job Listings -->
+  <section class="container py-4">
+    <h3>Open Positions</h3>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">💼 Front-End Developer - Remote</li>
+      <li class="list-group-item">🖥️ Full-Stack Engineer - Bengaluru</li>
+      <li class="list-group-item">🌐 Web Designer - Mumbai</li>
+      <li class="list-group-item">📱 Mobile App Developer - Remote</li>
+      <li class="list-group-item">🧠 Software Architect - Hyderabad</li>
+    </ul>
+  </section>
+
+  <!-- Job Application Form -->
+  <section class="container pb-5">
+    <h3>Apply Now</h3>
+    <form id="applicationForm">
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="fullName" required>
+      </div>
+      <div class="mb-3">
+        <label for="emailAddress" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailAddress" required>
+      </div>
+      <div class="mb-3">
+        <label for="jobRole" class="form-label">Job Role</label>
+        <select class="form-select" id="jobRole" required>
+          <option value="">Choose a role</option>
+          <option>Front-End Developer</option>
+          <option>Full-Stack Engineer</option>
+          <option>Web Designer</option>
+          <option>Mobile App Developer</option>
+          <option>Software Architect</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div id="successMsg" class="alert alert-success mt-3 d-none">Application Submitted Successfully!</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    &copy; 2025 DevJobs Portal. All rights reserved.
+  </footer>
+
+  <!-- jQuery + Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
